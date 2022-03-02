@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.listaInicio {
+    list-style-type: none;
+}
+
+header {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.tituloTexto {
+    font-size: 80px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.navLinks {
+    font-size: 40px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.secciones {
+    padding: 20px;
+}
+
+.background {
+    background-image: url("img/pastoGolf.jpg");
+    background-size: cover;
+    height: 1520px;
+}
+
+.flexContenedor {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+}
+
+.tarjeta {
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.textoInicio {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    word-spacing: 2px;
+}
+
+.imagenesIndex {
+    height: 220px;
+    width: 300px;
+}
+
+.tablaProductos {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    border-width: 2;
+}
+
+.tituloTabla {
+    height: 40px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.imagenesInicio {
+    height: 320px;
+    width: 400px;
+}
+
+.formularioConsultas {
+    text-align: center;
+}
+
+.imagenesProductos {
+    height: 420px;
+    width: 500px;
+}
+
+.textoProductos {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.botonInicio {
+    text-align: center;
+    margin-left: 900px;
+    border: none;
+    border-radius: 20px;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.imagenesClases {
+    height: 250px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 900px 800px;
+    grid-template-rows: 420px;
+    background-color: snow;
+    margin: 20px;
+    padding: 10px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+
+.parrafoInicio {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.imagenesInicioBase {
+    height: 420px;
+    width: 900px;
+}
