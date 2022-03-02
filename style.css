@@ -40,13 +40,19 @@ footer {
 .background {
     background-image: url("img/pastoGolf.jpg");
     background-size: cover;
-    height: 1520px;
+    height: 1650px;
 }
 
 .flexContenedor {
     display: flex;
     justify-content: space-around;
-    height: 350px;
+    height: 400px;
+}
+
+.flexContenedor :hover {
+    filter: brightness(1.1);
+    transform: scale(1.1, 1.1);
+    transition: 0.3s;
 }
 
 .tarjeta {
@@ -54,6 +60,10 @@ footer {
     padding: 20px;
     margin: 10px;
     border-radius: 20px;
+}
+
+.tarjeta a {
+    user-select: none;
 }
 
 .textoInicio {
