@@ -12,9 +12,9 @@
 
     <!-- Navbar de la página-->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Golfaddicts</a>
+          <a class="navbar-brand">Golfaddicts</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -31,39 +31,149 @@
       </nav>
 
     <div class="background">
+
         <br>
-        <table class="tablaProductos" border="2">
-            <tr>
-                <td class="tituloTabla">Marcas con las que trabajamos</td>
-                <td class="tituloTabla">Palos</td>
-                <td class="tituloTabla">Bolsas</td>
-                <td class="tituloTabla">Pelotas</td>
-            </tr>
-            <tr>
-                <td><img class="imagenesInicio" src="img/callaway.png"></td>
-                <td><img class="imagenesInicio" src="img/callawayPalos.png"></td>
-                <td><img class="imagenesInicio" src="img/callawayBolsa.png"></td>
-                <td><img class="imagenesInicio" src="img/callawayPelotas.png"></td>
-            </tr>
-            <tr>
-                <td><img class="imagenesInicio" src="img/titleist.png"></td>
-                <td><img class="imagenesInicio" src="img/titleistPalos.jpg"></td>
-                <td><img class="imagenesInicio" src="img/titleistBolsa.png"></td>
-                <td><img class="imagenesInicio" src="img/titleistPelotas.png"></td>
-            </tr>
-            <tr>
-                <td><img class="imagenesInicio" src="img/taylormade.png"></td>
-                <td><img class="imagenesInicio" src="img/taylormadePalo.jpg"></td>
-                <td><img class="imagenesInicio" src="img/taylormadeBolsa.jpg"></td>
-                <td><img class="imagenesInicio" src="img/taylormadePelota.jpg"></td>
-            </tr>
-            <tr>
-                <td><img class="imagenesInicio" src="img/srixon.jpg"></td>
-                <td><img class="imagenesInicio" src="img/srixonPalo.jpg"></td>
-                <td><img class="imagenesInicio" src="img/srixonBolsa.jpg"></td>
-                <td><img class="imagenesInicio" src="img/srixonPelota.jpg"></td>
-            </tr>
-        </table>
+
+        <!--Carusel CALLAWAY-->
+
+        <div class="caruselMarcas">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">        
+                        <img src="img/callaway2.jpg" class="d-block w-100" alt="..." height="700">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/callawayPalos.png" class="d-block w-100" alt="..." height="700">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/callawayBolsa2.jpg" class="d-block w-100" alt="..." height="700">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/callawayPelotas2.jpg" class="d-block w-100" alt="..." height="700">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <br>
+        
+        <div class="caruselMarcas">
+            <div id="carouseltTitlest" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouseltTitlest" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouseltTitlest" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouseltTitlest" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouseltTitlest" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="img/titleist2.jpg" class="d-block w-100" alt="..." height="700">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/titleistPalos.jpg" class="d-block w-100" alt="..." height="700">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/titleistBolsa.png" class="d-block w-100" alt="..." height="700">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/titleistPelotas2.jpg" class="d-block w-100" alt="..." height="700">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouseltTitlest" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouseltTitlest" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="caruselMarcas">
+            <div id="carouseltTaylotmade" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouseltTaylotmade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouseltTaylotmade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouseltTaylotmade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouseltTaylotmade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="img/taylormade.png" class="d-block w-100" alt="..." height="700">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/taylormadePalo.jpg" class="d-block w-100" alt="..." height="700">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/taylormadeBolsa.jpg" class="d-block w-100" alt="..." height="700">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/taylormadePelota.jpg" class="d-block w-100" alt="..." height="700">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouseltTaylotmade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouseltTaylotmade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="caruselMarcas">
+            <div id="carouseltSrixon" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouseltSrixon" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouseltSrixon" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouseltSrixon" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouseltSrixon" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="img/srixon.jpg" class="d-block w-100" alt="..." height="700">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/srixonPalo.jpg" class="d-block w-100" alt="..." height="700">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/srixonBolsa.jpg" class="d-block w-100" alt="..." height="700">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/srixonPelota.jpg" class="d-block w-100" alt="..." height="700">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouseltSrixon" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouseltSrixon" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <br>
     </div>
 
     <footer>

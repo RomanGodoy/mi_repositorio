@@ -12,9 +12,9 @@
 
     <!-- Navbar de la página-->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Golfaddicts</a>
+          <a class="navbar-brand">Golfaddicts</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -31,30 +31,61 @@
       </nav>
 
     <div class="background">
-        <div class="flexContenedor">
-            <div class="tarjeta">
-                <form class="formularioConsultas">
-                    <label for="fnombre">Nombre: </label>
-                    <input type="text" id="fnombre">
-                    <br>
-                    <label for="fappelido">Apellido: </label>
-                    <input type="text" id="fapellido">
-                    <br>
-                    <label for="coti">Email: </label>
-                    <input type="email" id="femail">
-                    <br>
-                    <select name="sexo">
-                        <option value="fmasculino">Masculino</option>
-                        <option value="ffemenino">Femenino</option>
-                    </select>
-                    <br>
-                    <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Comentarios..."></textarea>
-                    <br>
-                    <input type="reset" value="Limpiar formulario">
-                    <input type="submit" value="Enviar formulario">
-                </form>
-            </div>
+        <br>
+        <div class="backgroundContacto">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Apellido</label>
+            <input type="password" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label for="inputAddress" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputState" class="form-label">Género</label>
+            <select id="inputState" class="form-select">
+              <option selected>---</option>
+              <option>Masculino</option>
+              <option>Femenino</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <label for="inputCity" class="form-label">Pais</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-4">
+            <label for="inputCity" class="form-label">Provincia</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-4">
+            <label for="inputCity" class="form-label">Ciudad</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Producto</label>
+            <input type="text" class="form-control" placeholder="Ej. Madera Golf Fairway Callaway Epic Speed Max Nueva">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Comentarios</label>
+            <input type="text" class="form-control" placeholder="Si desea comentar algo mas">
+          </div>
+          <div class="col-md-1">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+          <div class="col-md-1">
+            <button type="reset" class="btn btn-warning">Limpiar</button>
+          </div>
+        </form>
         </div>
+
+        <img src="img/golfBanner.png" class="img-fluid">
+        <br>
+        <br>    
     </div>
 
     <footer>

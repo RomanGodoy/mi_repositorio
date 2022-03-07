@@ -31,6 +31,7 @@ a {
 footer {
     background-color: lightgreen;
     text-align: center;
+    height: 40px;
 }
 
 .secciones {
@@ -39,8 +40,10 @@ footer {
 
 .background {
     background-image: url("img/pastoGolf.jpg");
-    background-size: cover;
-    height: 1650px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
 }
 
 .flexContenedor {
@@ -71,11 +74,19 @@ footer {
     font-size: 50px;
     font-weight: 700;
     word-spacing: 2px;
+    pointer-events: none;
+    color: black;
 }
 
 .imagenesIndex {
     height: 220px;
     width: 300px;
+    pointer-events: none;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none !important;
 }
 
 .tablaProductos {
@@ -106,6 +117,13 @@ footer {
 }
 
 .textoProductos {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.textoProductosPrecio {
     text-align: center;
     font-size: 20px;
     font-weight: 400;
@@ -147,4 +165,29 @@ footer {
 .imagenesInicioBase {
     height: 420px;
     width: 900px;
+    border-radius: 20px;
+}
+
+.caruselMarcas {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    height: 500px;
+}
+
+.textoCarusel {
+    color: white;
+}
+
+.backgroundContacto {
+    background-color: white;
+    margin: 40px;
+    padding: 20px;
+}
+
+.imagenBanner {
+    height: 200px;
+    width: 1800px;
+    margin-left: 40px;
 }
