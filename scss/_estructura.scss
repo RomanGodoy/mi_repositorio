@@ -1,0 +1,87 @@
+.listaInicio {
+    list-style-type: none;
+}
+
+header {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+footer {
+    background-color: lightgreen;
+    text-align: center;
+    height: 40px;
+}
+
+.secciones {
+    padding: 20px;
+}
+
+.background {
+    background-image: url("../img/pastoGolf.jpg") !important;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.flexContenedor {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.flexContenedor :hover {
+    filter: brightness(1.1);
+    transform: scale(1.1, 1.1);
+    transition: 0.3s;
+}
+
+.tarjeta {
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.tarjeta a {
+    user-select: none;
+}
+
+.tablaProductos {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    border-width: 2;
+}
+
+.formularioConsultas {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 900px 800px;
+    grid-template-rows: 420px;
+    background-color: snow;
+    margin: 20px;
+    padding: 10px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+
+.caruselMarcas {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    height: 500px;
+}
+
+.backgroundContacto {
+    background-color: white;
+    margin: 40px;
+    padding: 20px;
+}
