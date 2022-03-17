@@ -35,9 +35,8 @@ footer {
   padding: 20px;
   margin: 10px;
   border-radius: 20px; }
-
-.tarjeta a {
-  user-select: none; }
+  .tarjeta a {
+    user-select: none; }
 
 .tablaProductos {
   background-color: white;
@@ -123,9 +122,10 @@ a {
   pointer-events: none;
   border-radius: 10px; }
 
-.imagenesInicio {
-  height: 320px;
-  width: 400px; }
+.imagenesInicioBase {
+  height: 440px;
+  width: 920px;
+  border-radius: 20px; }
 
 .imagenesProductos {
   height: 420px;
@@ -133,11 +133,6 @@ a {
 
 .imagenesClases {
   height: 250px; }
-
-.imagenesInicioBase {
-  height: 420px;
-  width: 900px;
-  border-radius: 20px; }
 
 .imagenBanner {
   height: 200px;

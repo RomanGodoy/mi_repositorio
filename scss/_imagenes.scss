@@ -1,3 +1,8 @@
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+}
+
 .imagenesIndex {
     height: 220px;
     width: 300px;
@@ -5,9 +10,9 @@
     border-radius: 10px;
 }
 
-.imagenesInicio {
-    height: 320px;
-    width: 400px;
+.imagenesInicioBase {
+    @include sizes(920px, 440px);
+    border-radius: 20px;
 }
 
 .imagenesProductos {
@@ -17,12 +22,6 @@
 
 .imagenesClases {
     height: 250px;
-}
-
-.imagenesInicioBase {
-    height: 420px;
-    width: 900px;
-    border-radius: 20px;
 }
 
 .imagenBanner {

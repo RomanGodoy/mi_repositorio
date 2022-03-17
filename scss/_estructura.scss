@@ -37,15 +37,21 @@ footer {
     transition: 0.3s;
 }
 
-.tarjeta {
-    background-color: cadetblue;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 20px;
-}
+$estilosTarjeta: (
+    fondo: cadetblue,
+    paddin: 20px,
+    margen: 10px,
+    bordeRadio: 20px,
+);
 
-.tarjeta a {
-    user-select: none;
+.tarjeta {
+    background-color: map-get($estilosTarjeta, fondo);
+    padding: map-get($estilosTarjeta, paddin);
+    margin: map-get($estilosTarjeta, margen);
+    border-radius: map-get($estilosTarjeta, bordeRadio);
+    a {
+        user-select: none;
+    }
 }
 
 .tablaProductos {
