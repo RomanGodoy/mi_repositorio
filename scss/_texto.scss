@@ -1,51 +1,5 @@
-.tituloTexto {
-    font-size: 80px;
-    text-align: left;
-    margin-left: 20px;
-}
-
-.navLinks {
-    font-size: 40px;
-    text-align: right;
-    margin-right: 20px;
-}
-
-.textoInicio {
-    text-align: center;
-    font-size: 50px;
-    font-weight: 700;
-    word-spacing: 2px;
-    pointer-events: none;
-    color: black;
-}
-
 a {
     text-decoration: none !important;
-}
-
-.tituloTabla {
-    height: 40px;
-    font-size: 40px;
-    font-weight: 500;
-}
-
-.textoProductos {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-    text-decoration: underline;
-}
-
-.textoProductosPrecio {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.parrafoInicio {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 30px;
 }
 
 .textoCarusel {
@@ -62,4 +16,13 @@ a {
     color: black;
     text-align: center;
     font-size: 25px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 18px;
 }
