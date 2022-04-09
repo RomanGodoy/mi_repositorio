@@ -79,8 +79,8 @@ $estilosTarjeta: (
 }
 
 .caruselMarcas {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 30px;
     margin-bottom: 200px;
     height: 500px;
@@ -90,4 +90,12 @@ $estilosTarjeta: (
     background-color: white;
     margin: 40px;
     padding: 20px;
+}
+
+.card {
+    margin: 60px;
+}
+
+.card-body {
+    background-color: rgb(36, 139, 36);
 }

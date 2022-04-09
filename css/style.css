@@ -60,8 +60,8 @@ footer {
   grid-row-gap: 15px; }
 
 .caruselMarcas {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 30px;
   margin-bottom: 200px;
   height: 500px; }
@@ -70,6 +70,12 @@ footer {
   background-color: white;
   margin: 40px;
   padding: 20px; }
+
+.card {
+  margin: 60px; }
+
+.card-body {
+  background-color: #248b24; }
 
 .tituloTexto {
   font-size: 80px;
@@ -115,6 +121,16 @@ a {
 
 .textoCarusel {
   color: white; }
+
+.card-title {
+  color: black;
+  text-align: center;
+  font-size: 50px; }
+
+.card-text {
+  color: black;
+  text-align: center;
+  font-size: 25px; }
 
 .imagenesIndex {
   height: 220px;
